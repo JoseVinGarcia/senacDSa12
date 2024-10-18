@@ -20,7 +20,10 @@ print(df)
 print(30*"=")
 print("VARIÁVEIS QUALITATIVAS")
 
-print("Produto:")
+print("Código do Produto:")
+print(df["Código do Produto"])
+
+print("\nProduto:")
 print(df["Produto"])
 
 print("\nCor:")
@@ -34,9 +37,6 @@ print(df["Satisfação"])
 
 print("\n", 30*"=")
 print("VARIÁVEIS QUANTITATIVAS")
-
-print("Código do Produto:")
-print(df["Código do Produto"])
 
 print("\nUnidades Vendidas:")
 print(df["Unidades Vendidas"])
